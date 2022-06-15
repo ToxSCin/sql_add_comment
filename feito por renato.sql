@@ -55,6 +55,7 @@ BEGIN
              
              -- Retorna o subconjunto de uma string com base na posição inicial especificada da string. Se a entrada for uma cadeia de caracteres, a posição inicial e o número de caracteres extraídos são baseados nos caracteres, e não bytes, de forma que caracteres multibyte são contados como caracteres simples.
              -- Cast converte uma expressão de um tipo de dados em outro, o resultado a seguir é 10. Então o retorno da informação depende do tipo de dado que estará usando.
+             -- CAST é uma função complexa que transforma um ou mais valores de um tipo de dados para outro.
              SET INDICE = INDICE + 1;
         END WHILE;
         -- Define uma condição para a execução repetida de uma instrução ou um bloco de instruções SQL. As instruções serão executadas repetidamente desde que a condição especificada seja verdadeira. A execução de instruções no loop WHILE pode ser controlada internamente ao loop com as palavras-chave BREAK e CONTINUE.7
